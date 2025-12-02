@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+    <!-- your background script (create this file next) -->
+    <script src="bg.js" defer></script>
+<script src="homeAnim.js" defer></script>
+ <title>Portfolio website</title>
+</head>
+<body>
+        <canvas id="matrix-canvas"></canvas>
+
+    <header>
+        <div class="logo"><span>S</span>ubh.</div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+    <section id="home" style="--i:1;" class="home">
+        <canvas id="home-canvas"></canvas>
+        <div class="home-content scroll-scale">
+            <h1>Hi! I'm Shubhashis</h1>
+            <div class="change-text">
+                <h3>And I'm</h3>
+                <h3>
+                    <span class="word">UI/UX&nbsp;stackdev</span>
+                    <span class="word">Mern&nbsp;stackdev</span>
+                    <span class="word">Frontend&nbsp;Developer</span>
+                    <span class="word">Devops&nbsp;Enginner</span>
+                    <span class="word">fullstack&nbsp;Developer</span>
+                </h3>
+            </div>
+            <p>Working in the development field for 1 year so far, specialized in full-stack development, backend systems, and modern web technologies.</p>
+
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email: </h5>
+                    <span>shubhshisbaral@gmail.com</span>
+                </div>
+                <div class="behance-info">
+                    <h5>Linkedin: </h5>
+                    <span></span>
+                    <span>
+    <a href="https://www.linkedin.com/in/shubhashis-baral-78a234331">
+         LinkedIn
+    </a>
+</span>
+                </div>
+            </div>
+
+            <div class="btn-box">
+                <a href="https://drive.google.com/file/d/1TCVEkbunm2nko3WrcfJ6Au2mRb8UVHcF/view?usp=sharing" class="btn">Download CV</a>
+                <a href="https://drive.google.com/file/d/1TCVEkbunm2nko3WrcfJ6Au2mRb8UVHcF/view?usp=sharing" class="btn">Hire Me Now!</a>
+                
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+        </div>
+
+        <div class="home-image scroll-scale">
+            <div class="img-box">
+                <img src="Images/" alt="">
+            
+    </section>
+
+    <section class="about" style="--i:2;" id="about">
+        <div class="img-about scroll-scale">
+            <img src="Images/removebg-preview.png" alt="">
+            <div class="info-about1">
+                <span>1+</span>
+                <p>Years of Experience</p>
+            </div>
+            <div class="info-about2">
+                <span>5+</span>
+                <p>Projects Completed</p>
+            </div>
+            <div class="info-about3">
+                <span>2+</span>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+
+        <div class="about-content scroll-scale">
+            <span>Let me introduce myself</span>
+            <h2>About Me</h2>
+            <h3>A story of good</h3>
+            <p> This portfolio showcases my ability to design and develop websites that not only look great but also provide an excellent user experience. Whether it's a simple landing page or a complex web application, I am committed to delivering high-quality work that meets the needs of clients and users alike. Explore my projects to see the culmination of my hard work and dedication to web development</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Read More!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" style="--i:3;" id="services">
+        <div class="main-text">
+            <span>What We can do for You</span>
+            <h2>Our Services</h2>
+        </div>
+        <div class="section-services">
+            <div class="service-box">
+                <i class='bx bxl-sketch service-icon'></i>
+                <h3>Mern stack development</h3>
+                <p>A passionate MERN Stack Developer skilled in building scalable and secure web applications</p>
+                <div class="btn-box service-btn">
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxs-briefcase service-icon'></i>
+                <h3>AI/ML</h3>
+                <p>My goal is to combine coding and cognition, building machine learning models that uncover patterns, predict outcomes, and make technology more human-centric and impactful for everyone.</p>
+                <div class="btn-box service-btn">
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-code-alt service-icon'></i>
+                <h3>UI/UX Dev/3D DESIGN</h3>
+                <p>Experienced in frontend development, I deliver user-centric designs and seamless interfaces to elevate web experiences with cutting-edge technologies</p>
+                <div class="btn-box service-btn">
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" style="--i:4;" class="skills">
+        <div class="main-text">
+            <span>Technical and Professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left scroll-scale">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Figma</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="figma"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>62%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-right scroll-scale">
+                <h3>Professional Skills</h3>
+                <div class="proffessional">
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="55"></div>
+                        <div class="text">
+                            <big>55%</big>
+                            <small>project Management</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" style="--i:5;" class="portfolio">
+        <div class="main-text scroll-scale">
+            <span>What I will do for you</span>
+            <h2>Latest Projects</h2>
+        </div>
+
+        <div class="container">
+            <div class="portfolio-gallery scroll-bottom">
+                <div class="port-box">
+                    <img src="Images/574c848eb9069.jpeg" alt="">
+                </div>
+
+                <div class="port-box">
+                    <img class="th2" src="Images/image10.png" alt="">
+                </div>
+
+                <div class="port-box">
+                    <img src="Images/personal-portfolio-website.jpg" alt="">
+                </div>
+
+                <div class="port-box">
+                    <img src="Images/zyro-pre-made-website-templates.png" alt="">
+                </div>
+
+                <div class="port-box">
+                    <img src="Images/split-screen-web-design-portfolio-template.png" alt="">
+                </div>
+
+                <div class="port-box">
+                    <img src="Images/f972024105052829cf425522a4ab27df.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="--i:6;" class="contact">
+        <div class="main-text scroll-scale">
+            <span>Ask me Questions</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <form action="#" class="scroll-bottom">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input type="text" placeholder="Your Address">
+            <input type="text" placeholder="Phone Number">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div class="btn-box formBtn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p class="scroll-scale">Copyright &copy; 2025 by Developersubh || All Rights Reserved</p>
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+    <script src="main.js"></script>
+   <script src="matrixMouse.js"></script> <!-- ADD HERE -->
+   <script src="plasma.js"></script>
+   <script src="homeAnim.js"></script>
+ </body>
+</html>

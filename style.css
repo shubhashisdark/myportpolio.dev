@@ -884,3 +884,37 @@ body::after {
   z-index: 99999;
   transition: transform 0.2s linear;
 }
+@media(max-width:420px){
+
+  .home{
+    padding-top: 30px;
+  }
+
+  .home-content h1{
+    font-size: 1.8rem;
+  }
+
+  .btn-box{
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-box .btn{
+    width: 100%;
+  }
+
+  .social-icons{
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .img-box img,
+  .img-about img{
+    max-width: 100%;
+  }
+
+  .portfolio-gallery{
+    grid-template-columns: 1fr;
+  }
+}

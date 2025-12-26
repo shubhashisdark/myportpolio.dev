@@ -785,8 +785,8 @@ body::after {
   position: fixed;
   inset: 0;
   background:
-    radial-gradient(circle at 18% 20%, rgba(255,0,255,0.25), transparent 45%),
-    radial-gradient(circle at 82% 72%, rgba(0,200,255,0.20), transparent 45%);
+    radial-gradient(circle at 18% 20%, rgba(2, 69, 10, 0.25), transparent 45%),
+    radial-gradient(circle at 82% 72%, rgba(0, 26, 255, 0.2), transparent 45%);
   filter: blur(80px);
   z-index: -3;
   pointer-events: none;
